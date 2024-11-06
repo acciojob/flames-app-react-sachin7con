@@ -1,16 +1,15 @@
-import React, {Component, useState} from "react";
+//SGN
+import React from "react";
 import '../styles/App.css';
+import Form from "./Form";
 
-class App extends Component {
-    render() {
-
-        return(
-            <div id="main">
-               {/* Do not remove the main div */}
-            </div>
-        )
-    }
-}
-
+const App = () => {
+  return (
+    <div id="main">
+      {/* Do not remove the main div */}
+      <Form />
+    </div>
+  );
+};
 
 export default App;
